@@ -5,7 +5,11 @@ module.exports = ({ env }) => ({
   app: {
     keys: env.array('APP_KEYS'),
   },
+  apiToken: {
+    salt: env('API_TOKEN_SALT'),
+  },
   app: {
       name: 'pivota-cms',
     },
+    
 });
