@@ -381,7 +381,7 @@ export interface ApiContactInfoContactInfo extends Struct.SingleTypeSchema {
     singularName: 'contact-info';
   };
   options: {
-    draftAndPublish: true;
+    draftAndPublish: false;
   };
   attributes: {
     availability: Schema.Attribute.String & Schema.Attribute.Required;
